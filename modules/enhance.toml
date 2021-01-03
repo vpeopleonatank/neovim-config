@@ -66,7 +66,7 @@ hook_add = '''
 repo = 'junegunn/goyo.vim'
 on_cmd = 'Goyo'
 hook_source = '''
-		source  $VIM_PATH/modules/module-goyo.vim
+		source  $VIM_PATH/vim-modules/module-goyo.vim
 '''
 
 [[plugins]]

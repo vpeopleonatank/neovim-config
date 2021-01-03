@@ -225,11 +225,11 @@ autocmd filetype cpp nnoremap <F2> :w <bar> FloatermSend g++ -std=c++14 % -o %:r
 autocmd filetype cpp nnoremap <F3> :exec 'FloatermSend ./%:r' <bar> FloatermToggle<CR>
 autocmd filetype cpp nnoremap <F4> :exec 'FloatermSend ./%:r < %:r.inp' <bar> FloatermToggle<CR>
 
-function! StartFloatermSilently() abort
-  FloatermNew
-  call timer_start(1, {-> execute('FloatermHide!')})
-endfunction
-autocmd VimEnter * call StartFloatermSilently()
+" function! StartFloatermSilently() abort
+"   FloatermNew
+"   call timer_start(1, {-> execute('FloatermHide!')})
+" endfunction
+" autocmd VimEnter * call StartFloatermSilently()
 
 nnoremap <silent> <C-i> <C-i>
 
@@ -254,3 +254,7 @@ nnoremap <leader>aQ :IPythonCellRestart<CR>
 nnoremap <leader>ad :SlimeSend1 %debug<CR>
 nnoremap <leader>aq :SlimeSend1 exit<CR>
 autocmd filetype python nnoremap <F2> :SlimeSend1 python % <CR>
+
+
+" Goyo
+nnoremap <Leader>G :Goyo<CR>
