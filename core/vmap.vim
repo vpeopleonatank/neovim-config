@@ -2,6 +2,10 @@
 " See plugin/bufkill.vim
 " use emacs keybind
 nmap <C-x>k :BD<CR>
+nmap <silent> <Leader>bn    <Plug>BufKillBack
+nmap <silent> <Leader>bp    <Plug>BufKillForward
+nmap <silent> <Leader>bd    <Plug>BufKillBd
+nmap <silent> <Leader>bu    <Plug>BufKillUndo
 "Write buffer (save)
 nnoremap <C-s> :<C-u>write<CR>
 "yank to end
@@ -55,6 +59,11 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
+
+
+" window
+nnoremap <leader>ws :<C-u>sp<CR>
+nnoremap <leader>wv :<C-u>vs<CR>
 
 " settings for resize splitted window
 nmap <C-w>[ :vertical resize -3<CR>

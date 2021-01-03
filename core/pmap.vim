@@ -79,6 +79,7 @@ nnoremap <silent> <Leader>m :MundoToggle<CR>
 nmap gsj <Plug>(easymotion-w)
 nmap gsk <Plug>(easymotion-b)
 nmap gsf <Plug>(easymotion-overwin-f)
+nmap gss <Plug>(easymotion-overwin-f2)
 
 
 nmap <silent> sa <Plug>(operator-sandwich-add)
@@ -258,3 +259,9 @@ autocmd filetype python nnoremap <F2> :SlimeSend1 python % <CR>
 
 " Goyo
 nnoremap <Leader>G :Goyo<CR>
+
+" Markdown preview
+nnoremap <silent> <Leader>om  :<C-u>MarkdownPreview<CR>
+
+" Open dashboard
+nnoremap <silent> <Leader>os  :<C-u>Dashboard<CR>
