@@ -18,6 +18,10 @@ nmap <leader>9 <Plug>BuffetSwitch(9)
 nmap <leader>0 <Plug>BuffetSwitch(10)
 
 nmap <leader>e :CocCommand explorer<CR>
+noremap <silent> <Leader>j :execute 'CocCommand explorer' .
+		\ ' --toggle' .
+		\ ' --position=floating' .
+		\ ' --sources=file+'<CR>
 
 nnoremap <silent> <Leader>od :DBUIToggle<CR>
 
