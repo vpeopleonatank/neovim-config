@@ -78,3 +78,6 @@ hook_add = '''
   let g:limelight_conceal_guifg = 'DarkGray'
   let g:limelight_conceal_guifg = '#777777'
 '''
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
