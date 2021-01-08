@@ -88,3 +88,7 @@ on_ft = 'python'
 [[plugins]]
 repo = 'wmvanvliet/jupyter-vim'
 on_ft = 'python'
+
+# [[plugins]]
+# repo = 'goerz/jupytext.vim'
+# on_ft = 'python'
