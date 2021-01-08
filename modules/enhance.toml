@@ -18,6 +18,9 @@ hook_source = '''
 '''
 
 [[plugins]]
+repo = 'rhysd/clever-f.vim'
+
+[[plugins]]
 repo = 'luochen1990/rainbow'
 on_ft = [
       'html',
@@ -81,3 +84,4 @@ hook_add = '''
 
 [[plugins]]
 repo = 'jiangmiao/auto-pairs'
+
