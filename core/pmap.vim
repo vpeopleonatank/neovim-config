@@ -6,6 +6,7 @@ nnoremap  ]b :<C-u>bp<CR>
 nnoremap  [b :<C-u>bn<CR>
 nnoremap <silent> <Leader>bc :Bonly<CR>
 nnoremap <silent> <Leader>bx :Bw<CR>
+
 nmap <leader>1 <Plug>BuffetSwitch(1)
 nmap <leader>2 <Plug>BuffetSwitch(2)
 nmap <leader>3 <Plug>BuffetSwitch(3)
@@ -269,3 +270,15 @@ nnoremap <silent> <Leader>om  :<C-u>MarkdownPreview<CR>
 
 " Open dashboard
 nnoremap <silent> <Leader>os  :<C-u>Dashboard<CR>
+
+" shortcut for far.vim find
+nnoremap <silent> <localleader>f  :Farf<cr>
+vnoremap <silent> <localleader>f  :Farf<cr>
+
+" shortcut for far.vim replace
+nnoremap <silent> <localleader>r  :Farr<cr>
+vnoremap <silent> <localleader>r :Farr<cr>
+let g:far#enable_undo=1
+let g:far#source = 'rg'
+let g:far#debug = 1
+
