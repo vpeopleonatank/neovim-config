@@ -88,5 +88,5 @@ repo = 'jiangmiao/auto-pairs'
 [[plugins]]
 repo = 'brooth/far.vim'
 
-[[plugins]]
-repo = 'danilamihailov/beacon.nvim'
+# [[plugins]]
+# repo = 'danilamihailov/beacon.nvim'
