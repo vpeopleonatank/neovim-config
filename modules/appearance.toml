@@ -61,3 +61,6 @@ repo = 'hardcoreplayers/spaceline.vim'
 hook_source = '''
 	let g:spaceline_seperate_style= 'slant'
 '''
+
+[[plugins]]
+repo = 'adelarsq/vim-devicons-emoji'
