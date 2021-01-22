@@ -61,7 +61,6 @@ hook_add = '''
       return !col || getline('.')[col - 1]  =~# '\s'
     endfunction
 
-		nnoremap <leader>cf :Format<CR>
 '''
 
 [[plugins]]

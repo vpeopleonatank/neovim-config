@@ -24,6 +24,8 @@ noremap <silent> <Leader>j :execute 'CocCommand explorer' .
 		\ ' --position=floating' .
 		\ ' --sources=file+'<CR>
 
+
+
 nnoremap <silent> <Leader>od :DBUIToggle<CR>
 
 "--------------------------"
@@ -196,6 +198,7 @@ nmap <silent><M-c>  <Plug>(coc-cursors-operator)
 
 " Use :Format for format current buffer
 command! -nargs=0 Format :call CocAction('format')
+nnoremap <leader>cf :Format<CR>
 
 nnoremap  <Leader>fz :<C-u>CocSearch -w<Space>
 " Introduce function text object
