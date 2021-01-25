@@ -91,5 +91,5 @@ repo = 'brooth/far.vim'
 # [[plugins]]
 # repo = 'danilamihailov/beacon.nvim'
 
-[[plugins]]
-repo = 'itchyny/vim-cursorword'
+# [[plugins]]
+# repo = 'itchyny/vim-cursorword'
