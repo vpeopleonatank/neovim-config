@@ -19,6 +19,12 @@ hook_source = '''
           \ 'source': [s:zshrc,s:tmux_conf],
           \ 'sink': 'e',
           \ }
+		let g:clap_provider_mrufiles = {
+								"\ 'source': function('mrufiles#mru#get'),
+								\ 'source': function('mrufiles#mru#get'),
+								\ 'sink': 'e',
+								"\ 'on_move': function('mrufiles#finder#clap#preview')
+								\ }
 
     " A funtion to config highlight of ClapSymbol
     " when the background color is opactiy
@@ -35,3 +41,6 @@ hook_source = '''
 [[plugins]]
 repo = 'vn-ki/coc-clap'
 on_source = 'vim-clap'
+
+[[plugins]]
+repo = 'markwu/vim-mrufiles'
