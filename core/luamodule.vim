@@ -1,5 +1,5 @@
 lua << EOF
-require('themes.spaceline')
+require('themes.evilline')
 EOF
 
 lua <<EOF
@@ -19,4 +19,8 @@ require "nvim-treesitter.configs".setup {
     persist_queries = false -- Whether the query persists across vim sessions
   }
 }
+EOF
+
+lua <<EOF
+require('dap-python').setup('~/anaconda3/envs/pytorch/bin/python')
 EOF

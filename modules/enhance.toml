@@ -101,3 +101,6 @@ repo = 'brooth/far.vim'
 
 # [[plugins]]
 # repo = 'Yggdroot/hiPairs'
+
+[[plugins]]
+repo = 'junegunn/vim-easy-align'

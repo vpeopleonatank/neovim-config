@@ -286,3 +286,21 @@ let g:far#enable_undo=1
 let g:far#source = 'rg'
 let g:far#debug = 1
 
+
+"--------------------------"
+"				Nvim-dap Keymap  "
+"--------------------------"
+"
+
+nnoremap <silent> <leader>dc :lua require'dap'.continue()<CR>
+nnoremap <silent> <leader>dd :lua require('dap').continue()<CR>
+nnoremap <silent> <leader>dq :lua require'dap'.step_over()<CR>
+nnoremap <silent> <leader>dw :lua require'dap'.step_into()<CR>
+nnoremap <silent> <leader>de :lua require'dap'.step_out()<CR>
+nnoremap <silent> <leader>b :lua require'dap'.toggle_breakpoint()<CR>
+nnoremap <silent> <leader>B :lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>
+nnoremap <silent> <leader>lp :lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>
+nnoremap <silent> <leader>dr :lua require'dap'.repl.open()<CR>
+nnoremap <silent> <leader>dl :lua require'dap'.repl.run_last()<CR>`
+nnoremap <silent> <leader>dn :lua require('dap-python').test_method()<CR>
+vnoremap <silent> <leader>ds <ESC>:lua require('dap-python').debug_selection()<CR>

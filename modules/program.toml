@@ -93,3 +93,9 @@ on_ft = 'python'
 # [[plugins]]
 # repo = 'goerz/jupytext.vim'
 # on_ft = 'python'
+
+[[plugins]]
+repo = 'mfussenegger/nvim-dap'
+
+[[plugins]]
+repo = 'mfussenegger/nvim-dap-python'
