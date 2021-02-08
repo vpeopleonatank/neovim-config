@@ -108,3 +108,9 @@ depends = 'vim-javascript'
 hook_add = '''
 	let g:vim_jsx_pretty_colorful_config = 1
 '''
+
+[[plugins]]
+repo = 'nvim-treesitter/nvim-treesitter'
+
+[[plugins]]
+repo = 'nvim-treesitter/playground'

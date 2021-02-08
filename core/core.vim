@@ -57,7 +57,11 @@ call initself#source_file($VIM_PATH,'core/general.vim')
 call initself#source_file($VIM_PATH,'core/event.vim')
 call initself#source_file($VIM_PATH,'core/pmap.vim')
 call initself#source_file($VIM_PATH,'core/vmap.vim')
+call initself#source_file($VIM_PATH,'core/luamodule.vim')
+
+
 call theme#theme_init()
+
 
 set secure
 

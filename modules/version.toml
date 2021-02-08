@@ -9,6 +9,7 @@ hook_source = '''
     augroup END
 '''
 
+
 [[plugins]]
 repo = 'rhysd/committia.vim'
 on_path = [ 'COMMIT_EDITMSG', 'MERGE_MSG' ]

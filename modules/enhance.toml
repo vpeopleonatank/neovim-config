@@ -99,5 +99,5 @@ repo = 'brooth/far.vim'
 # [[plugins]]
 # repo = 'andymass/vim-matchup'
 
-[[plugins]]
-repo = 'Yggdroot/hiPairs'
+# [[plugins]]
+# repo = 'Yggdroot/hiPairs'
